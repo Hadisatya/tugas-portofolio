@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav aria-label="primary navigation">
+             <div class="logo" tabindex="0">Portofolio saya</div>
+             <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+             </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container" tabindex="0">
+
+    <!-- about section-->
+
+<section id="about" class="about me" aria-label="About me section">
+    <h1>Hallo semuanya perkenalkan nama saya <strong>Muhammad Yusuf Kurnia</strong></h1>
+    <p>
+        Selamat datang di situs web portofolio pribadi saya! saya adalah seorang <strong> Murid di SMK PLUS PELITA NUSANTARA</strong>
+        yang sedang membaut web portofolio menggunakan bahasa pemrograman <strong>HTML, CSS, dan Javascript</strong> semoga dengan adanya portofolio ini kalian leboh dapat mengenal saya lebih jauh lagi.
+    </p>
+    <p>
+      Saya meyakini bahwa teknologi adalah jembatan masa depan—kunci utama untuk menciptakan pendidikan yang modern, inklusif, dan tanpa batasan.
+
+Dengan kekuatan teknologi, kita bisa membuka pintu belajar untuk siapa saja, di mana saja, dan kapan saja.
+
+Inilah langkah nyata menuju generasi yang adaptif, tangguh, dan siap menghadapi perubahan dunia. </p>
+</section>
+
+<!-- skills -->
+<section id="skills" class="skills-section">
+  <h2>💡 Skills</h2>
+  <div class="skills-container">
+    <div class="skill-card">
+      <h3>🔥 HTML5</h3>
+      <p>Markup language untuk struktur halaman web.</p>
+    </div>
+    <div class="skill-card">
+      <h3>🎨 CSS3</h3>
+      <p>Untuk mendesain dan mengatur tampilan halaman web.</p>
+    </div>
+    <div class="skill-card">
+      <h3>⚙️ JavaScript</h3>
+      <p>Bahasa pemrograman untuk menambahkan interaktivitas.</p>
+    </div>
+    <div class="skill-card">
+      <h3>🔧 Git & GitHub</h3>
+      <p>Untuk version control dan kolaborasi proyek.</p>
+    </div>
+     <div class="skill-card">
+      <h3>🐘 PHP</h3>
+      <p>Bahasa pemrograman server.</p>
+    </div>
+     <div class="skill-card">
+      <h3>🐴 Flowchart </h3>
+      <p>diagram yang digunakan untuk menggambarkan alur atau langkah-langkah dalam suatu proses secara visual.</p>
+    </div>
+  </div>
+</section>
+
+ <!-- project -->
+ <section id="project" aria-label="project section">
+  <h2>🚀 Projects</h2>
+  <div class="project-list">
+
+    <article class="project-item" tabindex="0">
+      <h3>🗒️ Digital note</h3>
+      <img src="/note/note.png" alt="digital note" class="project-image">
+      <p>Digital note adalah apilkasi website yang dapat mencatat hal yang ingin kita lakukan</p>   
+      <a href="/note/index.html" class="project-link" target="_blank" rel="noopener">🔗 Lihat project</a>
+    </article>
+
+    <article class="project-item" tabindex="0">
+      <h3>🕧 Jam digital</h3>
+      <img src="/jam/jam.png" alt="Portofolio" class="project-image">
+      <p> Aplikasi Jam Digital yang bebasis website</p>
+      <a href="/jam/index.html" class="project-link" target="_blank" rel="noopener">🔗 Lihat project</a>
+    </article>
+
+    <article class="project-item" tabindex="0">
+      <h3>⛅ Weather app</h3>
+      <img src="/weather app/cuaca.png" alt="cuaca" class="project-image">
+      <p>Suatu website yang dapat mnejelaskan cuaca terkini.</p>
+      <a href="/weather app/index.html" class="project-link" target="_blank" rel="noopener">🔗 Lihat project</a>
+    </article>
+
+    <article class="project-item" tabindex="0">
+      <h3>🔢 Kalkulator</h3>
+      <img src="/kalkulator/kalkulator.png" alt="Kalkulator" class="project-image">
+        <p>Aplikasi kalkulator berbasis website.</p>
+      <a href="/kalkulator/index.html" class="project-link" target="_blank" rel="noopener">🔗 Lihat project</a>
+    </article>
+
+  </div>
+</section>
+
+
+  <!-- contact section -->
+
+  <section id="contact" aria-label="contact section">
+    <h2>📬 Contact Me </h2>
+    <form id="contact-form" novalidate>
+
+        <label for="name">Nama Lengkap</label>
+        <input type="text" id="name" name="name" placeholder="Nama anda" aria-label="Nama anda" required />
+        <div class="error" id="name-error"></div>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email anda" aria-label="Email anda" required />
+        <div class="error" id="email-error"></div>
+
+        <label for="massage">Pesan</label>
+        <textarea id="massage" name="massage" rows="4" placeholder="Tulis pesan anda..." aria-label="Pesan anda" required></textarea>
+        <div class="error" id="massage-error"></div>   
+
+        <button type="submit" aria-label="Kirim pesan">📨 Kirim pesan</button>
+        <p class="success-msg" id="success-msg" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+
+<footer>
+    &copy; 2025 Muhammad Yusuf Kurnia SMK PLUS PELITA NUSANTARA
+</footer>
+
+</body>
+</html>
