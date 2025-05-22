@@ -34,7 +34,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #f3cb51;
+  color: #015eff;
 }
 
 /* Header dan Navbar */
@@ -96,7 +96,7 @@ nav ul li a::after {
   position: absolute;
   width: 0%;
   height: 2px;
-  background-color: #f3cb51;
+  background-color: #015eff;
   bottom: -4px;
   left: 0;
   transition: width 0.3s ease;
@@ -107,7 +107,7 @@ nav ul li a:hover::after {
 }
 
 nav ul li a:hover {
-  color: #f3cb51;
+  color: #015eff;
 }
 
 @media (max-width: 500px) {
@@ -140,7 +140,7 @@ section {
 }
 
 h1, h2, h3 {
-  color: #f3cb51;
+  color: #015eff;
   margin-bottom: 1rem;
 }
 
@@ -168,7 +168,7 @@ p {
 
 .skills-section h2 {
   text-align: center;
-  color: #f3cb51;
+  color: #015eff;
   margin-bottom: 2rem;
 }
 
@@ -180,7 +180,7 @@ p {
 
 .skill-card {
   background-color: #1f1f1f;
-  border: 1.5px solid #f3cb51;
+  border: 1.5px solid #015eff;
   border-radius: 12px;
   padding: 1rem;
   color: #eee;
@@ -189,7 +189,7 @@ p {
 
 .skill-card h3 {
   margin-bottom: 0.5rem;
-  color: #f3cb51;
+  color: #015eff;
 }
 
 .skill-card:hover {
@@ -206,7 +206,7 @@ p {
 }
 
 .project-item {
-  border: 1.5px solid #f3cb51;
+  border: 1.5px solid #015eff;
   border-radius: 12px;
   padding: 1.2rem;
   background-color: #1f1f1f;
@@ -222,13 +222,13 @@ p {
 .project-link {
   display: inline-block;
   margin-top: 0.75rem;
-  color: #f3cb51;
+  color: #015eff;
   font-weight: 600;
   transition: color 0.3s ease;
 }
 
 .project-link:hover {
-  color: #d4a900;
+  color:#015eff;
   text-decoration: underline;
 }
 
@@ -268,8 +268,8 @@ input:focus, textarea:focus {
 }
 
 button {
-  background: #79611a;
-  color: white;
+  background: white;
+  color: rgb(3, 3, 3);
   padding: 0.8rem;
   font-size: 1.1rem;
   border: none;
@@ -279,7 +279,7 @@ button {
 }
 
 button:hover {
-  background: #453916;
+  background: #015eff;
   transform: scale(1.01);
 }
 
@@ -293,7 +293,7 @@ button:hover {
 
 /* Footer */
 .footer {
-  text-align: center;
+  text-align: justify;
   font-size: 0.9rem;
   padding: 2rem 0;
   color: #000000;
