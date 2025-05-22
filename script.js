@@ -17,6 +17,7 @@ form.addEventListener('submit', function (e) {
     e.preventDefault();
 })
 
+
 //reset password
 nameError.textContent = '';
 emailError.textContent= '';
